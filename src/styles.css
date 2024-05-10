@@ -1,0 +1,15 @@
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+    outline: 0px solid white;
+}
