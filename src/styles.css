@@ -1,3 +1,9 @@
+:root {
+    --dark-gray: #393E41;
+    --gray: #D3D0CB;
+    --light-gray: #E7E5DF;
+    --mint: #248b77;
+}
 
 * {
     margin: 0%;

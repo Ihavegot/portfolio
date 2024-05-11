@@ -1,5 +1,5 @@
-import { Component, HostBinding, OnInit } from '@angular/core';
-import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
+import { Component, OnInit } from '@angular/core';
+import {BreakpointObserver} from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-welcome',
@@ -8,7 +8,5 @@ import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 })
 export class WelcomeComponent implements OnInit{
   constructor(private breakpointObserver: BreakpointObserver) {}
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void {}
 }
