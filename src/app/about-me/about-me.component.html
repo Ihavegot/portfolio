@@ -1,1 +1,20 @@
-<p>about-me works!</p>
+<div class="container">
+    <h1 class="aboutme">
+        <span>Kila słów o mnie</span>
+    </h1>
+    <section class="aboutMeData">
+        <p *ngFor="let s of aboutMeData">
+            {{s}}
+        </p>
+    </section>
+    <h1 class="interests">
+        <span>Zainteresowania</span>
+    </h1>
+    <section class="interestsData">
+        <ul *ngFor="let s of interests">
+            <li>
+                {{s}}
+            </li>
+        </ul>
+    </section>
+</div>

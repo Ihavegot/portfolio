@@ -1,0 +1,49 @@
+:host {
+    display: block;
+    color: azure;
+    padding: 3rem 2rem;
+}
+
+.container {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "aboutMe aboutMe aboutMe"
+        "aboutMeData aboutMeData aboutMeData"
+        "intrests intrestsData intrestsData";
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--mint);
+    outline: 1px solid white;
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+    grid-area: aboutMe;
+}
+
+.aboutMeData {
+    grid-area: aboutMeData;
+}
+
+.intrests {
+    grid-area: intrests;
+}
+
+.intrestsData {
+    grid-area: intrestsData;
+}
